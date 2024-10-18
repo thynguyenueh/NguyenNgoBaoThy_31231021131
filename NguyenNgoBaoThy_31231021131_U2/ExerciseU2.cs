@@ -2,7 +2,7 @@
 {
     internal class NNBT_Exercise_2
     {
-        public static void Main()
+        public static void Main2()
         {
             Question_01();
             //Question_02();

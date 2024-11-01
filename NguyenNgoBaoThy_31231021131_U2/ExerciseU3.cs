@@ -1,6 +1,4 @@
-﻿using System.Security.Cryptography;
-
-namespace NguyenNgoBaoThy_31231021131_U2
+﻿namespace NguyenNgoBaoThy_31231021131
 {
     internal class ExerciseU3
     {

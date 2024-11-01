@@ -1,4 +1,4 @@
-﻿namespace NNBT_Exercise_U2
+﻿namespace NguyenNgoBaoThy_31231021131
 {
     internal class NNBT_Exercise_2
     {

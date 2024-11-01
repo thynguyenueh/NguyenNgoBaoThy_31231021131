@@ -2,7 +2,7 @@
 
 namespace NguyenNgoBaoThy_31231021131_U2
 {
-    internal class NNBT_Exercise_U3
+    internal class ExerciseU3
     {
         public static void Main()
         {

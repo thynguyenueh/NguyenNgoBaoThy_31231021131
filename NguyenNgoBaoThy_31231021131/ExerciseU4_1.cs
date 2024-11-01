@@ -52,6 +52,26 @@
         /// </summary>
         public static void Question_05()
         {
+            // Prompt the user to enter a character
+            Console.Write("Enter a character: ");
+            char input = Console.ReadKey().KeyChar; // Read a single character from the user
+            Console.WriteLine(); // Move to the next line
+
+            // Check if the character is a vowel
+            if ("aeiouAEIOU".IndexOf(input) >= 0)
+            {
+                Console.WriteLine($"{input} is a vowel.");
+            }
+            // Check if the character is a digit
+            else if (char.IsDigit(input))
+            {
+                Console.WriteLine($"{input} is a digit.");
+            }
+            // If not a vowel or digit, it's an other symbol
+            else
+            {
+                Console.WriteLine($"{input} is an other symbol.");
+            }
 
         }
 

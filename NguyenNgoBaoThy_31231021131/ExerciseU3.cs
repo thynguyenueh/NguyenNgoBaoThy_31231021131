@@ -2,7 +2,7 @@
 {
     internal class ExerciseU3
     {
-        public static void Main()
+        public static void MainU3()
         {
             Question_01();
             //Question_02();

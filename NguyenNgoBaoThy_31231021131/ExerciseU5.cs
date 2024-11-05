@@ -7,20 +7,14 @@
             //Question_01();
             //Question_02();
             //Question_03();
+            Question_04();
+            //Question_05();
+            //Question_06();
 
             Console.WriteLine("Press any key to stop.");
             Console.ReadKey();
         }
-        //Write a C# function to find the maximum of three numbers.- Improve the next version that accept at least 1 parameter
-        static int max2Nums(int a, int b)
-        {
-            return a > b ? a : b;
-        }
-        static int max3Nums(int a, int b, int c)
-        {
-            return max2Nums(a, max2Nums(b, c));
-        }
-
+        //Write a C# function to find the maximum of three numbers.- Improve the next version that accept at least 1 parameter.
         public static void Question_01()
         {
             Console.WriteLine("Enter 3 numbers:");
@@ -29,6 +23,19 @@
             int c = int.Parse(Console.ReadLine());
             int max = max3Nums(a, b, c);
             Console.WriteLine($"Max = {max}");
+        }
+        static int max2Nums(int a, int b)
+        {
+            return a > b ? a : b; //viết ngắn gọn
+            
+            /*if (a > b)
+                return a;
+            else
+                return b;*/
+        }
+        static int max3Nums(int a, int b, int c)
+        {
+            return max2Nums(a, max2Nums(b, c));
         }
 
         //Write a C# function to calculate the factorial of a number (a non-negative integer). The function accepts the number as an argument.
@@ -51,7 +58,7 @@
             }
             return n * Factorial(n - 1);
         }
-
+        
         //Write a C# function that takes a number as a parameter and checks whether the number is prime or not.
         public static void Question_03()
         {
@@ -88,7 +95,7 @@
         2. the first N prime numbers*/
         public static void Question_04()
         {
-
+            
         }
     }
 }

@@ -1,8 +1,8 @@
 ﻿namespace NguyenNgoBaoThy_31231021131
 {
-    internal class NNBT_Exercise_2
+    internal class ExerciseU2
     {
-        public static void Main2()
+        public static void MainU2()
         {
             Question_01();
             //Question_02();

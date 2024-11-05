@@ -2,7 +2,7 @@
 {
     internal class ExerciseU4_1
     {
-        public static void Main4_1()
+        public static void MainU4_1()
         {
             //Question_02();
             //Question_03();

@@ -6,8 +6,8 @@
         {
             //Question_01();
             //Question_02();
-            //Question_03();
-            Question_04();
+            Question_03();
+            //Question_04();
             //Question_05();
             //Question_06();
 
@@ -80,7 +80,7 @@
             {
                 return false;
             }
-            for (int i = 2; i <= Math.Sqrt(n); i++)
+            for (int i = 2; i < n; i++) //Nếu dùng for (int i = 2; i <= Math.Sqrt(n); i++) thì tối ưu hơn khi kiểm tra số lớn
             {
                 if (n % i == 0)
                 {
@@ -95,8 +95,13 @@
         2. the first N prime numbers*/
         public static void Question_04()
         {
-            
+            Console.WriteLine("Enter a number: ");
+            int n = int.Parse(Console.ReadLine());
+
+            Console.WriteLine($""
+
         }
+        static int
     }
 }
 

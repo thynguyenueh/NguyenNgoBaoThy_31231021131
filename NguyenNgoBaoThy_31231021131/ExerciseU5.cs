@@ -4,7 +4,7 @@ namespace NguyenNgoBaoThy_31231021131
 {
     internal class ExerciseU5
     {
-        public static void Main(string[] args)
+        public static void MainU5(string[] args)
         {
             //Question_01();
             //Question_02();
@@ -103,19 +103,6 @@ namespace NguyenNgoBaoThy_31231021131
         /// 1. all prime numbers that less than a number(enter prompt keyboard).
         /// 2. the first N prime numbers
         /// </summary>
-        static bool IsPrime(int n)
-        {
-            if (n <= 1)
-                return false;
-
-            for (int i = 2; i <= Math.Sqrt(n); i++)
-            {
-                if (n % i == 0)
-                    return false;
-            }
-
-            return true;
-        }
 
         // In ra tất cả các số nguyên tố nhỏ hơn n
         static void PrintPrimesLessThan(int n)
@@ -148,7 +135,7 @@ namespace NguyenNgoBaoThy_31231021131
             Console.WriteLine();
         }
 
-        static void Main()
+        static void Question_04()
         {
             // Yêu cầu người dùng nhập một số để kiểm tra
             Console.Write("Enter a number to find primes less than it: ");
@@ -165,6 +152,11 @@ namespace NguyenNgoBaoThy_31231021131
         /// Write a C# function to check whether a number is "Perfect" or not. Then print all perfect number that less than 1000.
         /// </summary>
         // Function to check if a number is a perfect number
+        static void Question_05()
+        {
+            Console.WriteLine("Enter a number: ");
+            int max = int.Parse(Console.ReadLine());
+        }
         static bool IsPerfect(int number)
         {
             int sum = 0;
@@ -195,7 +187,7 @@ namespace NguyenNgoBaoThy_31231021131
             }
         }
 
-        static void Main(string[] args)
+        static void Question_06(string[] args)
         {
             PrintPerfectNumbers(1000); // Print all perfect numbers less than 1000
         }
@@ -222,7 +214,7 @@ namespace NguyenNgoBaoThy_31231021131
             return true;
         }
 
-        static void Main(string[] args)
+        static void Question_06()
         {
             Console.WriteLine("Enter a string:");
             string userInput = Console.ReadLine();

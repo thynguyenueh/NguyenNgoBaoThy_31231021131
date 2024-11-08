@@ -2,7 +2,7 @@
 {
     internal class ExerciseU4_2
     {
-        public static void Main(string[] args)
+        public static void MainU4_2(string[] args)
         {
             //Question_01();
             //Question_02();

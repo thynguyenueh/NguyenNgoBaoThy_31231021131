@@ -2,7 +2,7 @@
 {
     internal class ExerciseU7
     {
-        static void Main(string[] args)
+        static void MainU7(string[] args)
         {
             int[,] a;//khai bao mot mang 2 chieu
             Console.WriteLine("So dong = "); int rows = int.Parse(Console.ReadLine());
